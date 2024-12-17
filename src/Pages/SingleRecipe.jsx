@@ -128,7 +128,8 @@ export default function SingleRecipe() {
                         {/* Recipe Description */}
                         <Box>
                             <Typography variant="body1" mt={2} color="text.secondary">
-                                {recipeInfo.
+
+                                Instructions: {recipeInfo.
                                     instructions || "No description available."}
                             </Typography>
                         </Box>
